@@ -108,7 +108,33 @@
     </nav>
 
     <!-- NAVBAR WITH RESPONSIVE TOGGLE -->
-    <nav class="navbar navbar-expand-sm navbar-light">
+    <nav class="navbar navbar-expand-sm navbar-light mb-2">
+        <div class="container">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- NAVBAR WITH FORM --><nav class="navbar navbar-expand-sm navbar-light">
         <div class="container">
             <a class="navbar-brand" href="#">Navbar</a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
@@ -129,12 +155,15 @@
                         <a class="nav-link" href="#">Contact</a>
                     </li>
                 </ul>
+                
+                <form class="form-inline ml-auto">
+                    <input type="text" class="form-control mr-2" placeholder="Search">
+                    <button class="btn btn-outline-success">Search</button>
+                </form>
+
             </div>
         </div>
     </nav>
-
-
-    <!-- NAVBAR WITH FORM -->
 
 
     <!-- NAVBAR WITH DROPDOWN -->
