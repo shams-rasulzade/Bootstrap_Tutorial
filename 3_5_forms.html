@@ -90,22 +90,24 @@
         <!-- FORM -->
         <form>
             <!-- TEXT FIELD GROUPS -->
-            <div>
+            <div class="form-group">
                 <label for="name">Name</label>
-                <input type="text" id="name" placeholder="Enter name">
+                <input class="form-control" type="text" id="name" placeholder="Enter name">
             </div>
-            <div>
+            <div class="form-group">
                 <label for="email">Email address</label>
-                <input type="email" id="email" placeholder="Enter email">
+                <input class="form-control form-control-lg" type="email" id="email" placeholder="Enter email">
+                <small class="formitext text-muted">Your email will not ever be shared</small>
             </div>
-            <div>
+            <div class="form-group">
                 <label for="company">Company</label>
-                <input type="text" id="company" placeholder="Enter company name">
+                <input class="form-control form-control-sm" type="text" id="company" placeholder="Enter company name">
             </div>
-            <div>
+            <div class="form-group">
                 <label for="password">Password</label>
-                <input type="password" id="password" placeholder="Password">
-            </div>
+                <input class="form-control" type="password" id="password" placeholder="Password" readonly> 
+            </div class="form-group">
+
             <!-- SELECT -->
             <div>
                 <label for="gender">Gender</label>
@@ -114,17 +116,20 @@
                     <option>Female</option>
                 </select>
             </div>
+
             <!-- TEXTAREA -->
             <div>
                 <label for="message">Message</label>
                 <textarea id="message" rows="3"></textarea>
             </div>
+
             <!-- FILE INPUT -->
             <div>
                 <label for="file">File input</label>
                 <input type="file" id="file">
                 <small id="fileHelp">Max 3mb size</small>
             </div>
+
             <!-- CUSTOM FILE INPUT -->
             <div>
                 <input type="file" id="myfile">
@@ -132,6 +137,7 @@
             </div>
             <br>
             <br>
+            
             <!-- RANGE -->
             <div>
                 <label for="membership">Membership Level</label>
